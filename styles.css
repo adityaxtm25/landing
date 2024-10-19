@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #2c3e50; /* Dark blue-gray */
+    color: #ecf0f1; /* Light gray */
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: #ecf0f1;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #3498db; /* Bright blue on hover */
+}
+
+.hero {
+    background: linear-gradient(to right, #3498db, #2ecc71); /* Gradient background */
+    color: #fff;
+    text-align: center;
+    padding: 100px 20px;
+    position: relative; /* Added for better positioning */
+}
+
+.hero h1 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+.hero p {
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+.cta-button {
+    background: #e74c3c; /* Red */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: #c0392b; /* Darker red on hover */
+}
+
+.content-section {
+    padding: 40px 20px;
+    text-align: center;
+    background: #ecf0f1; /* Light gray background */
+}
+
+.content-section h2 {
+    color: #2c3e50; /* Dark blue-gray */
+    margin-bottom: 20px;
+}
+
+.feature {
+    margin: 20px 0;
+    padding: 20px;
+    background: #fff; /* White background for features */
+    border: 1px solid #bdc3c7; /* Light gray border */
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.feature:hover {
+    transform: scale(1.05); /* Slightly enlarge on hover */
+}
+
+footer {
+    background: #2c3e50; /* Dark blue-gray */
+    color: #ecf0f1; /* Light gray */
+    text-align: center;
+    padding: 20px;
+}
+
+.social-media a {
+    margin: 0 10px;
+    color: #ecf0f1; /* Light gray */
+    text-decoration: none;
+}
